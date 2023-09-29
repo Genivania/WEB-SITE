@@ -1,11 +1,19 @@
+html{
+    scroll-behavior:smooth;
+}
 body{
     display: grid;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(/img/PAG_WEB.png);
+    color: white;
+    font-family: 'Oswald', sans-serif;
 }
 header{
-    background-color: blue;
+    display: flex;
+    font-size: 4.5vh;
+    z-index: 999;
+    align-items: center;
 }
 main{
     background-color: pink;
@@ -16,4 +24,17 @@ footer{
 }
 #root {
     height: 100%;
+}
+
+.voltar{
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    display: grid;
+    place-content: center;
+    font-size: 2.5rem;
+    transition: all .5s;
+}
+.voltar:hover{
+    color: blue;
 }
