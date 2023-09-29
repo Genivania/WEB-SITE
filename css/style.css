@@ -1,0 +1,19 @@
+body{
+    display: grid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/PAG_WEB.png);
+}
+header{
+    background-color: blue;
+}
+main{
+    background-color: pink;
+}
+
+footer{
+    background-color: purple;
+}
+#root {
+    height: 100%;
+}
