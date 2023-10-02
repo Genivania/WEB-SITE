@@ -1,0 +1,17 @@
+.nos{
+    display: grid;
+    height: 20vw;
+}
+
+.title{
+    color: #4D97DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    color: #747474 ;
+    font-size: 3rem;
+}
