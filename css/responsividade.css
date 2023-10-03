@@ -8,10 +8,8 @@
         max-width: 100%; 
         height: auto; 
     }
-    man{
-      
-        justify-items: center;
-    }
+   
+    
     
     .button{
         width: 9%;
@@ -24,10 +22,10 @@
 
     
     span{
-        font-size: 3rem ;
+        font-size: 2rem ;
     }
     h1{
-        font-size: 4rem ; 
+        font-size: 3rem ; 
     }
     h3{
         font-size: 1rem;
