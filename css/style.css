@@ -15,7 +15,11 @@ header{
     z-index: 999;
     align-items: center;
 }
-
+main{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
 
 footer{
     display: flex;

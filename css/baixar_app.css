@@ -28,7 +28,7 @@ h4{
     padding: 20px;
     width: 95%;
     justify-content: center;
-    height: 68%;
+    height: 58%;
 }
 .buttons_download{
     display: grid;   
@@ -85,10 +85,7 @@ h4{
     justify-items: center;
 }
 
-.celular{
-    width: 50% ;
-    
-}
+
 
 
 
