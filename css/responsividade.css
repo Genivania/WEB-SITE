@@ -1,0 +1,70 @@
+@media screen and (max-width:900px){
+    :root{
+        --space-default:60px;
+    }
+   
+    body{
+        background-image: url(/img/tablet.png);
+        max-width: 100%; 
+        height: auto; 
+    }
+    man{
+      
+        justify-items: center;
+    }
+    
+    .button{
+        width: 9%;
+        font-size: 1rem;
+    }
+    .menu {
+        font-size: 2rem;
+        width: 80%;
+    }
+
+    
+    span{
+        font-size: 3rem ;
+    }
+    h1{
+        font-size: 4rem ; 
+    }
+    h3{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: 2rem;
+    }
+    
+    .texto1{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .celular{
+        display: none;
+    }
+    .celular2{
+        display: flex;
+    }
+
+
+
+
+footer{
+    display: none;
+    
+}
+        
+
+}
+
+ /* MOBALE */
+ @media screen and (max-width:375px){
+   
+    body{
+        
+        background-image: url(/img/PAG_WEB_RESPONSIVO.png);
+       
+    }
+ }
