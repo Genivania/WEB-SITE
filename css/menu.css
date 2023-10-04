@@ -7,6 +7,12 @@
     padding-left: 120px;
     gap: 80px;
 }
+.menu_lateral_A{
+    display: none;
+}
+.menu_lateral_B{
+display: none;
+}
 
 .menu li{
     border-bottom: 3px solid transparent;
