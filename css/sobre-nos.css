@@ -1,0 +1,22 @@
+.sobre-nos{
+    display: flex;
+    align-items: center;
+    padding: 150px;
+    justify-items: center;
+}
+
+.title{
+    color: #4D97DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    height: 15vw;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    color: #747474 ;
+    font-size: 3rem;
+    font-weight: normal; 
+}

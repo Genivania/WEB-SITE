@@ -16,12 +16,15 @@ header{
     align-items: center;
 }
 main{
-    
-    
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 footer{
-    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #root {
     height: 100%;
@@ -35,6 +38,7 @@ footer{
     place-content: center;
     font-size: 2.5rem;
     transition: all .5s;
+    color: rgb(117, 117, 247);
 }
 .voltar:hover{
     color: blue;

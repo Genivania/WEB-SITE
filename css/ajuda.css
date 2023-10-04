@@ -1,0 +1,42 @@
+.ajuda{
+    background-color: #B3D3E4;
+    color: #2E4FC0;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    width: 96%;
+    height: 8vw;
+    justify-content: center;
+    font-family: 'Abel', sans-serif;
+}
+
+.card-ajuda{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+}
+
+.contato-item{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+i{
+    font-size: 2.5rem;
+}
+
+h6{
+    font-size: 2rem;
+}
+.social-container{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.copyright{
+    font-size: 2rem;
+}

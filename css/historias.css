@@ -1,0 +1,37 @@
+.historias-div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.card-historias{
+    display: grid;
+    height: 15vw;
+    width: 30vw;
+    color: #575757;
+    border-radius: 30px;
+    border: 2px solid #575757;
+    align-items: center;
+    justify-content: center;
+}
+.card-historias-pessoas{
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    justify-items: center;
+}
+.dados-historia{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h7{
+    font-size: 1.5rem;
+}
+h8{
+    font-size: 1.5rem;
+    color: black;
+}
+
