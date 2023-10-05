@@ -70,6 +70,7 @@
         width: 8vw;
     }
     .sobre-nos {
+        display: grid;
         width: auto;
         height: 130vw;
         padding: 50px;
@@ -106,7 +107,9 @@
     body{
         background-image: url(/img/PAG_WEB_RESPONSIVO.png);
     }
-
+    .menu_header{
+        display: none;
+    }
     .button{
         height: 50%;
         width: 25%;
@@ -169,7 +172,9 @@
     }
     .title {
         font-size: 4rem;
-        height: 40vw;
+        margin-bottom: 20px;
+        align-items: end;
+        height: 30vw;
     }
     .app{
         width: auto;
@@ -177,7 +182,7 @@
     }
     .text1{
         width: 92%;
-        height: 220vw;
+        height: 250vw;
         align-items: end;
         justify-content: center;
     }
@@ -205,19 +210,15 @@
     }
     .sobre-nos{
         padding: 20px;
+        height: 160vw;
     }
-    .title {
-        height: 70vw;
-        margin-bottom: 20px;
-        align-items: end;
-    }
+   
    .ajuda {
-    display: flex;
-    height: 50vw;
-    width: 90%;
+        display: grid;
+        height: 50vw;
+    
     }
     .card-ajuda{
-        
        display: grid;
         gap: 2px;
         justify-items: center;
@@ -240,6 +241,7 @@
     .icon{
         width: 8vw;
     }
+   
     footer{
         width: 100%;
     }
