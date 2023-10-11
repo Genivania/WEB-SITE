@@ -107,17 +107,25 @@
     body{
         background-image: url(/img/PAG_WEB_RESPONSIVO.png);
     }
+    /* main{
+        display: none;
+    } */
+
+    header{
+        
+        margin: 10px 10px 0 0;
+        
+    }
     .menu_header{
         display: none;
     }
     .button{
-        height: 50%;
+        height: 40px;
         width: 25%;
         font-size: 1rem;
     }
     .menu{
-        width: 70%;
-        padding-left: 12px;
+        display: none;
     }
 
     .menu_lateral_A{
@@ -243,7 +251,67 @@
     }
    
     footer{
+        display: none;
+        /* width: 100%; */
+    }
+
+
+
+
+    .a_menu{
+        text-decoration: none;
+        
+    }
+    .ul_menu{
+        list-style: none;
+    }
+    .menu_lateral1{
+        width: 40px;
+    }
+    input[type= "checkbox"]{
+        display: none;
+    }
+    .menu_novo{
+        background-color: rgba(250, 245, 245, 0.925);
+        height: 100%;
+        width: 200px;
+        left: -200px;
+        position: absolute;
+        transition: all .5s;
+    }
+    input[type= "checkbox"]:checked ~ nav
+    {
+        transform: translateX(200px);
+    }
+    .ul_menu{
+        top: 70px;
+        position: absolute;
         width: 100%;
+    }
+    .li_menu{
+        display: flex;
+        align-items: center;
+    }
+    .a_menu{
+        display: block;
+        padding: 20px 5px;
+        color: #797979;
+        font-size: 2rem;
+        
+    }
+    i:hover{
+        color: #0C80B1;
+    }
+    .a_menu:hover{
+        width: 100%;
+        background-color: #a8bcf7;
+        color: #0C80B1;
+    }
+    
+    label{
+        padding: 30px;
+        position: absolute;
+        z-index: 1;
     }
     
  }
