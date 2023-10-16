@@ -272,12 +272,14 @@
         display: none;
     }
     .menu_novo{
-        background-color: rgba(250, 245, 245, 0.925);
+        background-color: rgb(254, 254, 254);
         height: 100%;
         width: 200px;
         left: -200px;
         position: absolute;
         transition: all .5s;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
     }
     input[type= "checkbox"]:checked ~ nav
     {
