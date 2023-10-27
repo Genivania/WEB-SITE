@@ -7,6 +7,10 @@
     padding-left: 120px;
     gap: 80px;
 }
+
+label {
+    display: none;
+}
 .menu_lateral_A{
     display: none;
 }
