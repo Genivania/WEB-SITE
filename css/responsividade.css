@@ -313,14 +313,9 @@
 
 
 
-    .a_menu {
-        text-decoration: none;
+    
 
-    }
-
-    .ul_menu {
-        list-style: none;
-    }
+   
 
 
     .menu_lateral1 {
@@ -332,7 +327,7 @@
     }
 
     .menu_novo {
-        background-color: rgba(254, 254, 254, 0.372);
+        background-color: rgb(221, 222, 246, 0.35);
         height: 100%;
         width: 200px;
         left: -200px;
@@ -347,6 +342,7 @@
     }
 
     .ul_menu {
+        list-style: none;
         top: 70px;
         position: absolute;
         width: 100%;
@@ -358,20 +354,26 @@
     }
 
     .a_menu {
+        text-decoration: none;
         display: block;
         padding: 20px 5px;
         color: #797979;
         font-size: 2rem;
     }
 
-    i:hover {
+    .menu-label:hover {
         color: #0C80B1;
     }
 
     .a_menu:hover {
         width: 100%;
         background-color: #a8bcf7;
-        color: #0C80B1;
+        color: #63a2bc;  
+    }
+
+    .a_menu i :hover {
+        
+        color: #63a2bc;  
     }
 
     label {
@@ -384,8 +386,5 @@
         color: blue;
     }
 
-
-    label i {
-        color: #ffffff;
-    }
+    
 }
