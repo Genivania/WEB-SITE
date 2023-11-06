@@ -12,6 +12,7 @@
     .button {
         width: 9%;
         font-size: 1rem;
+        margin-right: 10px;
     }
 
     .menu {
@@ -129,10 +130,6 @@
         background-image: url(/img/PAG_WEB_RESPONSIVO.png);
     }
 
-    /* main{
-        display: none;
-    } */
-
     header {
         display: flex;
         justify-content: space-between;
@@ -148,6 +145,7 @@
         height: 40px;
         width: 25%;
         font-size: 1rem;
+        
     }
 
     .menu {
@@ -305,18 +303,6 @@
         width: 8vw;
     }
 
-    footer {
-        display: none;
-        /* width: 100%; */
-    }
-
-
-
-
-    
-
-   
-
 
     .menu_lateral1 {
         width: 100%;
@@ -327,26 +313,32 @@
     }
 
     .menu_novo {
-        background-color: rgb(221, 222, 246, 0.35);
+        background-color: rgba(255, 255, 255);
         height: 100%;
         width: 200px;
         left: -200px;
         position: absolute;
-        transition: all .5s;
+        transition: all .9s;
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
     }
 
     input[type="checkbox"]:checked~nav {
         transform: translateX(200px);
+        
     }
 
     .ul_menu {
         list-style: none;
-        top: 70px;
+        top: 30px;
+        padding-top: 40px;
         position: absolute;
         width: 100%;
     }
+    .ul_menu :hover{
+        color: #2C62F1;
+    }
+
 
     .li_menu {
         display: flex;
@@ -359,32 +351,29 @@
         padding: 20px 5px;
         color: #797979;
         font-size: 2rem;
-    }
-
-    .menu-label:hover {
-        color: #0C80B1;
+        transition: all .35s;
     }
 
     .a_menu:hover {
         width: 100%;
         background-color: #a8bcf7;
-        color: #63a2bc;  
+        color: #2C62F1; 
     }
 
-    .a_menu i :hover {
-        
-        color: #63a2bc;  
+    .a_menu .i:hover {
+        color: #2C62F1; 
     }
+
 
     label {
         display: flex;
-        position: absolute;
         z-index: 1;
     }
 
-    input[type="checkbox"]:checked+label i {
-        color: blue;
-    }
+
+
+
+    
 
     
 }

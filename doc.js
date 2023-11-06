@@ -1,12 +1,16 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var menuIcon = document.getElementById("menu-icon");
+document.addEventListener('DOMContentLoaded', function() {
+    const checkbox = document.getElementById('chec');
+    const menuIcon = document.getElementById('menu-icon');
+    
 
-    // Verifique se o menu está sendo aberto ou fechado com base no estado do checkbox
-    if (this.checked) {
-        menuIcon.style.color = "blue"; // Cor quando o menu está ativo
-    } else {
-        menuIcon.style.color = "#ffffff"; // Cor padrão quando o menu não está ativo
-    }
-
+    checkbox.addEventListener('change', function() {
+        console.log('Evento de alteração acionado');
+        if (this.checked) {
+            menuIcon.style.color = '#2C62F1';
+        } else {
+            menuIcon.style.color = '#ffffff';
+        }
+    });
+    
 });
 
