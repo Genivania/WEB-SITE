@@ -1,7 +1,7 @@
 
 
 # DOE VIDA
- Essa página foi desenvolvida para divulgar a aplicação do TCC. 
+ Essa página foi desenvolvida para TCC. 
 
 ![](./img/readme.png)
 
